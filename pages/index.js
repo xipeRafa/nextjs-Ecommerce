@@ -1,14 +1,16 @@
 
-import { Button, Icon } from 'semantic-ui-react'
-import 'semantic-ui-css/semantic.min.css'
+
+
+import BasicLayout from '../layouts/BasicLayout'
 
 export default function Home() {
   return (
     <div>
+    
+      <BasicLayout>
       <h1>home</h1>
-      <Button primary>Primary</Button>
-    <Button secondary>Secondary</Button>
-    <Icon name='home' size='large' />
+      </BasicLayout>
+      
     </div>
   )
 }
